@@ -4,6 +4,7 @@ import static org.testng.Assert.*;
 
 import java.util.List;
 
+import org.testng.Assert;
 import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 
@@ -30,13 +31,9 @@ public class TareaManagerTest {
     @Test
     @Parameters({"titulo","descripcion"})
     public void testAgregarTarea(String titulo, String descripcion){
-        //Tarea.Estado.COMPLETADA
         Tarea tarea = new Tarea(titulo, descripcion);
-        System.out.println("El titulo es :"+titulo+", la descripcion es :"+descripcion);
         manager.agregarTarea(tarea);
-        SoftAssert sa = new SoftAssert();
-        sa.assertTrue(manager.getTareas().contains(tarea), "La tarea debe estar en la lista");
-        sa.assertAll(); 
+        Assert.assertTrue(manager.getTareas().contains(tarea), "La tarea debe estar en la lista");
     }
 
     @Test
@@ -45,17 +42,15 @@ public class TareaManagerTest {
         Tarea tarea = new Tarea(titulo, descripcion);
         manager.agregarTarea(tarea);
         boolean completada = manager.completarTarea(tarea);
-        SoftAssert sa = new SoftAssert();
-        assertTrue(completada, "La tarea debe estar completada");
-        assertEquals(tarea.getEstado(), Tarea.Estado.COMPLETADA);
-        sa.assertAll(); 
+        Assert.assertTrue(completada, "La tarea debe estar completada");
+        Assert.assertEquals(tarea.getEstado(), Tarea.Estado.COMPLETADA);
     }
 
     @Test
     public void testCompletarTareaInexistente(){
         Tarea tarea = new Tarea("Prueba de tarea", "descripcion de prueba");
         boolean completada = manager.completarTarea(tarea);
-        assertFalse(completada, "no debe completar una tarea inexistente");
+        Assert.assertFalse(completada, "no debe completar una tarea inexistente");
     }
 
     @Test

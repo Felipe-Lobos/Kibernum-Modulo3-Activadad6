@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.677" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.715" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CL"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\wolfo\AppData\Local\Temp\surefire5873758813299251466\surefirebooter8722518649721249812.jar C:\Users\wolfo\AppData\Local\Temp\surefire5873758813299251466 2025-07-14T22-41-17_228-jvmRun1 surefire16674944426672429935tmp surefire_013963786408317403654tmp"/>
+    <property name="sun.java.command" value="C:\Users\wolfo\AppData\Local\Temp\surefire16535958763389545046\surefirebooter2942788762564106163.jar C:\Users\wolfo\AppData\Local\Temp\surefire16535958763389545046 2025-07-14T22-54-24_162-jvmRun1 surefire4461781936422624786tmp surefire_015731222983574385224tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\wolfo\OneDrive\Desktop\CURSOS\BOOTCAMP AUTOMATIZACION QA\Modulo 3\Actividades\actividad6\taskmanager\target\test-classes;C:\Users\wolfo\OneDrive\Desktop\CURSOS\BOOTCAMP AUTOMATIZACION QA\Modulo 3\Actividades\actividad6\taskmanager\target\classes;C:\Users\wolfo\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\wolfo\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\wolfo\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\wolfo\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\wolfo\AppData\Local\Temp\surefire5873758813299251466\surefirebooter8722518649721249812.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\wolfo\AppData\Local\Temp\surefire16535958763389545046\surefirebooter2942788762564106163.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.7+6-LTS"/>
@@ -59,12 +59,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
+  <testcase name="testAgregarTarea" classname="cl.kibernumacademy.service.TareaManagerTest" time="0.009"/>
   <testcase name="testAgregarTarea" classname="cl.kibernumacademy.service.TareaManagerTest" time="0.01"/>
-  <testcase name="testAgregarTarea" classname="cl.kibernumacademy.service.TareaManagerTest" time="0.01"/>
-  <testcase name="testCambiarEstadoTarea" classname="cl.kibernumacademy.service.TareaManagerTest" time="0.001"/>
-  <testcase name="testCambiarEstadoTarea" classname="cl.kibernumacademy.service.TareaManagerTest" time="0.001"/>
+  <testcase name="testCambiarEstadoTarea" classname="cl.kibernumacademy.service.TareaManagerTest" time="0"/>
+  <testcase name="testCambiarEstadoTarea" classname="cl.kibernumacademy.service.TareaManagerTest" time="0"/>
   <testcase name="testCompletarTareaInexistente" classname="cl.kibernumacademy.service.TareaManagerTest" time="0"/>
   <testcase name="testCompletarTareaInexistente" classname="cl.kibernumacademy.service.TareaManagerTest" time="0"/>
-  <testcase name="testFiltrarPorEstado" classname="cl.kibernumacademy.service.TareaManagerTest" time="0.002"/>
-  <testcase name="testFiltrarPorEstado" classname="cl.kibernumacademy.service.TareaManagerTest" time="0.002"/>
+  <testcase name="testFiltrarPorEstado" classname="cl.kibernumacademy.service.TareaManagerTest" time="0.007"/>
+  <testcase name="testFiltrarPorEstado" classname="cl.kibernumacademy.service.TareaManagerTest" time="0.008"/>
 </testsuite>
