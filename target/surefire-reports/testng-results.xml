@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-14T22:41:18 CLT" name="TareaManagerSuite" finished-at="2025-07-14T22:41:18 CLT" duration-ms="75">
+    <groups>
+    </groups>
+    <test started-at="2025-07-14T22:41:18 CLT" name="TareaManagerTest" finished-at="2025-07-14T22:41:18 CLT" duration-ms="74">
+      <class name="cl.kibernumacademy.service.TareaManagerTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:cl.kibernumacademy.service.TareaManagerTest@318ba8c8]" started-at="2025-07-14T22:41:18 CLT" name="setup" finished-at="2025-07-14T22:41:18 CLT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="limpiarTareas()[pri:0, instance:cl.kibernumacademy.service.TareaManagerTest@318ba8c8]" started-at="2025-07-14T22:41:18 CLT" name="limpiarTareas" finished-at="2025-07-14T22:41:18 CLT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- limpiarTareas -->
+        <test-method signature="testAgregarTarea(java.lang.String,java.lang.String)[pri:0, instance:cl.kibernumacademy.service.TareaManagerTest@318ba8c8]" started-at="2025-07-14T22:41:18 CLT" name="testAgregarTarea" finished-at="2025-07-14T22:41:18 CLT" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sobrevivir]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Llega a fin de mes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAgregarTarea -->
+        <test-method signature="testCambiarEstadoTarea(java.lang.String,java.lang.String)[pri:0, instance:cl.kibernumacademy.service.TareaManagerTest@318ba8c8]" started-at="2025-07-14T22:41:18 CLT" name="testCambiarEstadoTarea" finished-at="2025-07-14T22:41:18 CLT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sobrevivir]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Llega a fin de mes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCambiarEstadoTarea -->
+        <test-method is-config="true" signature="limpiarTareas()[pri:0, instance:cl.kibernumacademy.service.TareaManagerTest@318ba8c8]" started-at="2025-07-14T22:41:18 CLT" name="limpiarTareas" finished-at="2025-07-14T22:41:18 CLT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- limpiarTareas -->
+        <test-method is-config="true" signature="limpiarTareas()[pri:0, instance:cl.kibernumacademy.service.TareaManagerTest@318ba8c8]" started-at="2025-07-14T22:41:18 CLT" name="limpiarTareas" finished-at="2025-07-14T22:41:18 CLT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- limpiarTareas -->
+        <test-method signature="testCompletarTareaInexistente()[pri:0, instance:cl.kibernumacademy.service.TareaManagerTest@318ba8c8]" started-at="2025-07-14T22:41:18 CLT" name="testCompletarTareaInexistente" finished-at="2025-07-14T22:41:18 CLT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompletarTareaInexistente -->
+        <test-method is-config="true" signature="limpiarTareas()[pri:0, instance:cl.kibernumacademy.service.TareaManagerTest@318ba8c8]" started-at="2025-07-14T22:41:18 CLT" name="limpiarTareas" finished-at="2025-07-14T22:41:18 CLT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- limpiarTareas -->
+        <test-method signature="testFiltrarPorEstado()[pri:0, instance:cl.kibernumacademy.service.TareaManagerTest@318ba8c8]" started-at="2025-07-14T22:41:18 CLT" name="testFiltrarPorEstado" finished-at="2025-07-14T22:41:18 CLT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFiltrarPorEstado -->
+        <test-method is-config="true" signature="resetear()[pri:0, instance:cl.kibernumacademy.service.TareaManagerTest@318ba8c8]" started-at="2025-07-14T22:41:18 CLT" name="resetear" finished-at="2025-07-14T22:41:18 CLT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetear -->
+      </class> <!-- cl.kibernumacademy.service.TareaManagerTest -->
+    </test> <!-- TareaManagerTest -->
+    <test started-at="2025-07-14T22:41:18 CLT" name="TareaManagerTest2" finished-at="2025-07-14T22:41:18 CLT" duration-ms="75">
+      <class name="cl.kibernumacademy.service.TareaManagerTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:cl.kibernumacademy.service.TareaManagerTest@65466a6a]" started-at="2025-07-14T22:41:18 CLT" name="setup" finished-at="2025-07-14T22:41:18 CLT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="limpiarTareas()[pri:0, instance:cl.kibernumacademy.service.TareaManagerTest@65466a6a]" started-at="2025-07-14T22:41:18 CLT" name="limpiarTareas" finished-at="2025-07-14T22:41:18 CLT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- limpiarTareas -->
+        <test-method signature="testAgregarTarea(java.lang.String,java.lang.String)[pri:0, instance:cl.kibernumacademy.service.TareaManagerTest@65466a6a]" started-at="2025-07-14T22:41:18 CLT" name="testAgregarTarea" finished-at="2025-07-14T22:41:18 CLT" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Terminar el bootcamp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Completar todas las actividades del bootcamp y asistir]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAgregarTarea -->
+        <test-method signature="testCambiarEstadoTarea(java.lang.String,java.lang.String)[pri:0, instance:cl.kibernumacademy.service.TareaManagerTest@65466a6a]" started-at="2025-07-14T22:41:18 CLT" name="testCambiarEstadoTarea" finished-at="2025-07-14T22:41:18 CLT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Terminar el bootcamp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Completar todas las actividades del bootcamp y asistir]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCambiarEstadoTarea -->
+        <test-method is-config="true" signature="limpiarTareas()[pri:0, instance:cl.kibernumacademy.service.TareaManagerTest@65466a6a]" started-at="2025-07-14T22:41:18 CLT" name="limpiarTareas" finished-at="2025-07-14T22:41:18 CLT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- limpiarTareas -->
+        <test-method is-config="true" signature="limpiarTareas()[pri:0, instance:cl.kibernumacademy.service.TareaManagerTest@65466a6a]" started-at="2025-07-14T22:41:18 CLT" name="limpiarTareas" finished-at="2025-07-14T22:41:18 CLT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- limpiarTareas -->
+        <test-method signature="testCompletarTareaInexistente()[pri:0, instance:cl.kibernumacademy.service.TareaManagerTest@65466a6a]" started-at="2025-07-14T22:41:18 CLT" name="testCompletarTareaInexistente" finished-at="2025-07-14T22:41:18 CLT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompletarTareaInexistente -->
+        <test-method is-config="true" signature="limpiarTareas()[pri:0, instance:cl.kibernumacademy.service.TareaManagerTest@65466a6a]" started-at="2025-07-14T22:41:18 CLT" name="limpiarTareas" finished-at="2025-07-14T22:41:18 CLT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- limpiarTareas -->
+        <test-method signature="testFiltrarPorEstado()[pri:0, instance:cl.kibernumacademy.service.TareaManagerTest@65466a6a]" started-at="2025-07-14T22:41:18 CLT" name="testFiltrarPorEstado" finished-at="2025-07-14T22:41:18 CLT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFiltrarPorEstado -->
+        <test-method is-config="true" signature="resetear()[pri:0, instance:cl.kibernumacademy.service.TareaManagerTest@65466a6a]" started-at="2025-07-14T22:41:18 CLT" name="resetear" finished-at="2025-07-14T22:41:18 CLT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetear -->
+      </class> <!-- cl.kibernumacademy.service.TareaManagerTest -->
+    </test> <!-- TareaManagerTest2 -->
+  </suite> <!-- TareaManagerSuite -->
+</testng-results>

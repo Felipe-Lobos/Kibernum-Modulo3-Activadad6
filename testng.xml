@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TareaManagerSuite" parallel="tests" thread-count="2">
+
+    <test name="TareaManagerTest">
+        <parameter name="titulo" value="Sobrevivir"/>
+        <parameter name="descripcion" value="Llega a fin de mes"/>
+        <classes>
+            <class name="cl.kibernumacademy.service.TareaManagerTest"/>
+        </classes>
+    </test>
+    <test name="TareaManagerTest2">
+        <parameter name="titulo" value="Terminar el bootcamp"/>
+        <parameter name="descripcion" value="Completar todas las actividades del bootcamp y asistir"/>
+        <classes>
+            <class name="cl.kibernumacademy.service.TareaManagerTest"/>
+        </classes>
+    </test>
+</suite>
